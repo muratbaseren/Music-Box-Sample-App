@@ -120,6 +120,13 @@
   <ItemGroup>
     <None Include="Resources\1468409373_Cancel.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="MusicBoxDBScripts\albumler_scripts.sql" />
+    <Content Include="MusicBoxDBScripts\db-full-script.sql" />
+    <Content Include="MusicBoxDBScripts\sarkicilar_scripts.sql" />
+    <Content Include="MusicBoxDBScripts\sarkilar_scripts.sql" />
+    <Content Include="MusicBoxDBScripts\turler_scripts.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
